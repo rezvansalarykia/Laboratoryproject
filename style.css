@@ -68,8 +68,25 @@ img:hover{
 }
 
 
-.back
-.for
-.play while mouseover -> {
+.back,
+.for,
+.play:hover{
     border-color: #bebebe;
+}
+
+li{
+    display: inline;
+    margin-inline: 15px;
+}
+ul{
+    padding-left: 0px;
+}
+
+.minute{
+    color: white;
+}
+
+input{
+    width: 240px;
+    margin-bottom: 10px;
 }
